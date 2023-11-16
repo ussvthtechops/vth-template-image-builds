@@ -29,8 +29,8 @@
             "password": "{{user `vcenter_password`}}",
             "remove_cdrom": true,
             "shutdown_command": "echo '{{user `var_guest_password`}}' | sudo -S -E shutdown -P now",
-            "ssh_password": "{{user `ssh_password`}}",
-            "ssh_username": "{{user `ssh_username`}}",
+            "ssh_password": "root",
+            "ssh_username": "ZnDAvQc*N!",
             "storage": [{
                 "disk_size": "20480",
                 "disk_thin_provisioned": true
