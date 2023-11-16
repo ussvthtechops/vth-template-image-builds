@@ -1,7 +1,7 @@
 {
     "vcenter_server": "drmth301vc2.dri.delllabs.net",
-    "vcenter_username": "diminm@cec.lab.emc.com",
-    "vcenter_password": "MDInfra5!",
+    "vcenter_username": "ussapi_user@cec.lab.emc.com",
+    "vcenter_password": "Abcd!2345",
     "vcenter_datastore": "DRMTH301-DC2C1-X2R0827-VOL02",
     "vcenter_folder": "Templates",
     "vcenter_cluster": "DRMTH301DC2-C1 (Generic)",
