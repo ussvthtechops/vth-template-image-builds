@@ -11,9 +11,6 @@
     "ssh_username": "root",
     "ssh_password": "ZnDAvQc*N!",
 
-    "winrm_username": "Administrator",
-    "winrm_password": "{{ env `SSHPASS`}}",
-
     "http_server": "https://raw.githubusercontent.com/ussvthtechops/vth-template-image-builds/main/config",
 
     "centos7_vm_name": "packer-centos7",
