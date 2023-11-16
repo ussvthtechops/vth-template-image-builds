@@ -64,32 +64,10 @@
         {
             "execute_command": "echo '{{user `ssh_password`}}' | {{ .Vars }} sudo -E -S sh '{{ .Path }}'",
             "only": [
-                "Ubuntu1804"
-            ],
-            "scripts": [
-                "{{ template_dir }}/scripts/ubuntu_update.sh",
-                "{{ template_dir }}/scripts/ssh_config.sh",
-                "{{ template_dir }}/scripts/ssh_install_autotmm_key.sh"
-            ],
-            "type": "shell"
-        },
-        {
-            "execute_command": "echo '{{user `ssh_password`}}' | {{ .Vars }} sudo -E -S sh '{{ .Path }}'",
-            "only": [
                 "CentOS7"
             ],
             "scripts": [
                 "{{ template_dir }}/scripts/centos_7.sh"
-            ],
-            "type": "shell"
-        },
-        {
-            "execute_command": "echo '{{user `ssh_password`}}' | {{ .Vars }} sudo -E -S sh '{{ .Path }}'",
-            "only": [
-                "CentOS8"
-            ],
-            "scripts": [
-                "{{ template_dir }}/scripts/centos_8.sh"
             ],
             "type": "shell"
         },
