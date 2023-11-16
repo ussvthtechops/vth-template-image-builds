@@ -9,7 +9,7 @@
     "buildtime": "{{ env `BUILDTIME`}}",
 
     "ssh_username": "{{ env `SSHUSER`}}",
-    "ssh_password": "{{ env `SSHPASS`}}"
+    "ssh_password": "{{ env `SSHPASS`}}",
 
     "http_server": "https://raw.githubusercontent.com/ussvthtechops/vth-template-image-builds/main/config",
 
