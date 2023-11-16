@@ -1,0 +1,7 @@
+packer_cache/
+*.tfstate.backup
+*.tfstate
+**/.terraform
+variables.live.json
+**/terraform.plan
+terraform/tf.variables.sh
