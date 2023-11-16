@@ -71,16 +71,6 @@
             ],
             "type": "shell"
         },
-        {
-            "execute_command": "echo '{{user `ssh_password`}}' | {{ .Vars }} sudo -E -S sh '{{ .Path }}'",
-            "only": [
-                "Ubuntu1804"
-            ],
-            "scripts": [
-                "{{ template_dir }}/scripts/ubuntu_18.sh"
-            ],
-            "type": "shell"
-        }
     ],
     "sensitive-variables": [
         "vcenter_password",
