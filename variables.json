@@ -1,16 +1,15 @@
 {
-    "vcenter_server": "{{ env `VCSERVER`}}",
-    "vcenter_username": "{{ env `VCUSER`}}",
-    "vcenter_password": "{{ env `VCPASS`}}",
-    "vcenter_datastore": "{{ env `VCDATASTORE`}}",
-    "vcenter_folder": "{{ env `VCFOLDER`}}",
-    "vcenter_cluster": "{{ env `VCCLUSTER`}}",
-    "vcenter_network": "{{ env `VCNETWORK`}}",
-
+    "vcenter_server": "drmth301vc2.dri.delllabs.net",
+    "vcenter_username": "diminm@cec.lab.emc.com",
+    "vcenter_password": "MDInfra5!",
+    "vcenter_datastore": "DRMTH301-DC2C1-X2R0827-VOL02",
+    "vcenter_folder": "Templates",
+    "vcenter_cluster": "DRMTH301DC2-C1 (Generic)",
+    "vcenter_network": "VLAN-1920--10.227.120.0-22",
     "buildtime": "{{ env `BUILDTIME`}}",
 
-    "ssh_username": "{{ env `SSHUSER`}}",
-    "ssh_password": "{{ env `SSHPASS`}}",
+    "ssh_username": "root",
+    "ssh_password": "ZnDAvQc*N!",
 
     "winrm_username": "Administrator",
     "winrm_password": "{{ env `SSHPASS`}}",
@@ -34,8 +33,8 @@
     "windows_2016_checksum": "1ce702a578a3cb1ac3d14873980838590f06d5b7101c5daaccbac9d73f1fb50f",
 
     "centos7_vm_name": "packer-centos7",
-    "centos7_iso": "[sc2c02vsan01] iso/CentOS-7-x86_64-DVD-2003.iso",
-    "centos7_checksum": "087a5743dc6fd6706d9b961b8147423ddc029451b938364c760d75440eb7be14",
+    "centos7_iso": "[DRMTH301-DC2C1-X2R0827-VOL02] isos/CentOS-7-x86_64-DVD-2207-02.iso",
+    "centos7_checksum": "4b257cb5418e2ba44064121020dfe457fadaff0d0c597bb2f4e7f7eec4aef58a"
 
     "centos8_vm_name": "packer-centos8",
     "centos8_iso": "[sc2c02vsan01] iso/CentOS-8.2.2004-x86_64-dvd1.iso",
