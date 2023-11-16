@@ -8,8 +8,8 @@
     "vcenter_network": "VLAN-1920--10.227.120.0-22",
     "buildtime": "{{ env `BUILDTIME`}}",
 
-    "ssh_username": "root",
-    "ssh_password": "ZnDAvQc*N!",
+    "ssh_username": "{{ env `SSHUSER`}}",
+    "ssh_password": "{{ env `SSHPASS`}}"
 
     "http_server": "https://raw.githubusercontent.com/ussvthtechops/vth-template-image-builds/main/config",
 
