@@ -240,8 +240,8 @@ stages:
           - export VCFOLDER="${input.Packer-Build-vCenter-Folder}"
           - export VCCLUSTER="${input.Packer-Build-vCenter-Cluster}"
           - export VCNETWORK="${input.Packer-Build-vCenter-Network}"
-          - export SSHUSER="autotmm"
-          - export SSHPASS="VMware1!"
+          - export SSHUSER="root"
+          - export SSHPASS="ZnDAvQc*N!"
           - export BUILDTIME=$BUILDTIME
           - EOF
           - ''
